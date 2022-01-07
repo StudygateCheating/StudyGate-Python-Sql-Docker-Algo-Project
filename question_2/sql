@@ -1,0 +1,10 @@
+-- Question 2.1
+
+SELECT persons.pk, persons.name, persons.age, persons.car, cars.pk, cars.type, cars.color, cars.maximum_passengers  FROM persons inner join cars on persons.car = cars.pk;
+
+-- Question 2.3
+
+INSERT INTO car_sharing (person_owing_car_id,	person_sharing,	person_given_car,	person_given_car_id, car_id) values (1, 'Miriam', 'Randal', 0, 1);
+
+-- Question 2.4
+select * from car_sharing;

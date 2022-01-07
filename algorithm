@@ -1,0 +1,5 @@
+1. Read the folder containing the text files
+2. Extract data from the file
+3. Categorize the files.
+4. post results to the server.
+5. Spin many processes to run the code in parallel.
